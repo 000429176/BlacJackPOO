@@ -7,13 +7,13 @@ namespace ClassLibrary
     public class User
     {
 
-        private List<Card> hand; 
+        private List<Card> hand = new List<Card>(); 
 
         public List<Card> Hand { get => hand; set => hand = value; }
 
         public void AddCard(Card c)
         {
-            Hand.Add(c);
+            hand.Add(c);
         }
 
     }
