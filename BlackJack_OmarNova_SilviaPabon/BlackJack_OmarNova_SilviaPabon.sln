@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackJack_OmarNova_SilviaPabon", "BlackJack_OmarNova_SilviaPabon.csproj", "{BD47E3F5-1EAB-4954-8F04-5B813A871238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "..\ClassLibrary\ClassLibrary.csproj", "{8A861F01-B8E6-45CC-9C54-6D202FB83D17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD47E3F5-1EAB-4954-8F04-5B813A871238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD47E3F5-1EAB-4954-8F04-5B813A871238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD47E3F5-1EAB-4954-8F04-5B813A871238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD47E3F5-1EAB-4954-8F04-5B813A871238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A861F01-B8E6-45CC-9C54-6D202FB83D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A861F01-B8E6-45CC-9C54-6D202FB83D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A861F01-B8E6-45CC-9C54-6D202FB83D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A861F01-B8E6-45CC-9C54-6D202FB83D17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8A39EF2-1C4F-4BA4-A9BE-021ACE71A889}
+	EndGlobalSection
+EndGlobal
