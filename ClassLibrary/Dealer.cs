@@ -6,5 +6,6 @@ namespace ClassLibrary
 {
     public class Dealer
     {
+
     }
 }
