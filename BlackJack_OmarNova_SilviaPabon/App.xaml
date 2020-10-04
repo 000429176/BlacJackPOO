@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:BlackJack_OmarNova_SilviaPabon"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
     </Application.Resources>
 </Application>
