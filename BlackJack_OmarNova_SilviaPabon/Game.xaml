@@ -12,11 +12,11 @@
         <Rectangle HorizontalAlignment="Center" Height="450" Stroke="Green" VerticalAlignment="Center" Width="800" Fill="#FF0EA615"/>
         <Label Content="Player" HorizontalAlignment="Left" Margin="144,28,0,0" VerticalAlignment="Top" Height="64" Width="162" FontWeight="Bold" FontFamily="Aleo" FontSize="48"/>
         <TextBlock Name="txtHandPlayer" HorizontalAlignment="Left" Height="179" Margin="164,97,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="108" Background="White" OpacityMask="Black" FontFamily="Aleo" FontSize="25"/>
-        <Button Name="btnPedirCarta" Content="Hit" HorizontalAlignment="Left" Margin="266,316,0,0" VerticalAlignment="Top" Width="123" Height="38" Click="BtnPedirCarta_Click" FontFamily="Aleo" FontSize="25"/>
-        <Button  Name="btnPlantarse" Content="Stand" HorizontalAlignment="Left" Margin="424,316,0,0" VerticalAlignment="Top" Height="38" Width="132" Click="btnPlantarse_Click" FontFamily="Aleo" FontSize="24"/>
+        <Button Style="{DynamicResource PruebaEstiloBoton}" Name="btnPedirCarta" Content="Hit" HorizontalAlignment="Left" Margin="266,316,0,0" VerticalAlignment="Top" Width="123" Height="38" Click="BtnPedirCarta_Click" FontFamily="Aleo" FontSize="25"/>
+        <Button Style="{DynamicResource PruebaEstiloBoton}" Name="btnPlantarse" Content="Stand" HorizontalAlignment="Left" Margin="424,316,0,0" VerticalAlignment="Top" Height="38" Width="132" Click="btnPlantarse_Click" FontFamily="Aleo" FontSize="24"/>
         <Label Content="Dealer" HorizontalAlignment="Left" Margin="518,28,0,0" VerticalAlignment="Top" Height="64" Width="158" FontWeight="Bold" FontFamily="Aleo" FontSize="48"/>
         <TextBlock Name="txtHandDealer" HorizontalAlignment="Left" Height="179" Margin="543,97,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="108" Background="White" OpacityMask="Black" FontFamily="Aleo" FontSize="24"/>
-        <Button Name="btnNewGame" Content="New Game" HorizontalAlignment="Left" Margin="328,360,0,0" VerticalAlignment="Top" Width="164" Height="38" FontFamily="Aleo" FontSize="24" Click="btnNewGame_Click"/>
+        <Button Style="{DynamicResource PruebaEstiloBoton}" Name="btnNewGame" Content="New Game" HorizontalAlignment="Left" Margin="328,360,0,0" VerticalAlignment="Top" Width="164" Height="38" FontFamily="Aleo" FontSize="24" Click="btnNewGame_Click"/>
         <Label Name="lblScoreDealer" Content="" HorizontalAlignment="Left" Margin="582,281,0,0" VerticalAlignment="Top" FontFamily="Aleo" FontSize="18" Width="30"/>
         <Label Name="lblScorePlayer" Content="" HorizontalAlignment="Left" Margin="203,281,0,0" VerticalAlignment="Top" FontFamily="Aleo" FontSize="18" Width="30"/>
         <Label Name="lblGames" Content="" HorizontalAlignment="Left" Height="84" Margin="337,128,0,0" VerticalAlignment="Top" Width="155"/>

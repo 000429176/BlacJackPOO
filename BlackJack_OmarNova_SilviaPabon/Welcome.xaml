@@ -10,7 +10,7 @@
 
     <Grid MaxWidth="800" MaxHeight="450">
         <Rectangle HorizontalAlignment="Center" Height="450" Stroke="Green" VerticalAlignment="Center" Width="800" Fill="#FF0EA615" MaxWidth="800" MaxHeight="450" />
-        <Button Name="btnNewGame" Content="New Game" HorizontalAlignment="Center" Margin="0,241,0,0" VerticalAlignment="Top" Height="52" Width="184" Click="btnNewGame_Click" FontFamily="Aleo" FontSize="28"/>
+        <Button Style="{DynamicResource PruebaEstiloBoton}" Name="btnNewGame" Content="New Game" HorizontalAlignment="Center" Margin="0,250,0,0" VerticalAlignment="Top" Height="52" Width="184" Click="btnNewGame_Click" FontFamily="Aleo" FontSize="28"/>
         <Image HorizontalAlignment="Left" Height="71" Margin="458,87,0,0" VerticalAlignment="Top" Width="133" Source="/cartas.png" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
